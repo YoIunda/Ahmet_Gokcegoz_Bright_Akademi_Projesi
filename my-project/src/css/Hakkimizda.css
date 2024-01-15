@@ -1,0 +1,98 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Muli", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px;
+  color: inherit;
+}
+
+h1 {
+    font-size: 46px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  h3 {
+    font-size: 22px;
+  }
+  
+  h4 {
+    font-size: 18px;
+  }
+  
+  h5 {
+    font-size: 17px;
+  }
+  
+  h6 {
+    font-size: 15px;
+   
+  }
+  .about-block .progress-block {
+    margin: 0 0 25px;
+  }
+  
+  .about-block .progress-block h4 {
+    text-transform: uppercase;
+    margin: 0 0 5px;
+    font-size: 16px;
+  }
+  
+  .about-block .progress-bar {
+    background-color: #317773;
+    -webkit-transition: width 0.3s linear;
+    transition: width 0.3s linear;
+  }
+  
+  .services-block .icon {
+    width: 60px;
+    height: 60px;
+    font-size: 26px;
+    color: #317773;
+    margin: 0 0 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    text-align: center;
+    transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+  }
+  
+  .services-block .icon .fas {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 2;
+  }
+  
+  .services-block .row {
+    margin: 0 -15px 50px;
+  }
+  
+  .services-block .row:last-child {
+    margin: 0 -15px;
+  }
+  
+  .services-block .holder {
+    transition: all 0.3s linear;
+  }
+  
+  .services-block .holder:hover {
+    margin-top: -5px;
+  }
+  
+  .services-block .holder:hover .icon {
+    box-shadow: inset 0 0 0 30px #315877;
+
+    ;
+    color: #fff;
+    font-size: 18px;
+  }
+
+
