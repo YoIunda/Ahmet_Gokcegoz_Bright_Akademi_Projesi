@@ -11,7 +11,9 @@
     position: sticky;
 }
 .dropdown-item, .dropdown-menu{
-    background-color: #317773 !important;
+    background-color: #c0cb59 !important;
+    color:white !important;
+
 }
 .nav-link{
     padding-bottom: 100px;
@@ -20,4 +22,8 @@
 .nav-link:hover{
     text-decoration: underline;
     text-decoration-color:rgb(220, 192, 140) ;
+}
+.dropdown-item:hover{
+    font-weight: bold;
+    
 }

@@ -6,9 +6,26 @@ const Footer = () => {
     <Container fluid className='bg-dark d-flex flex-column justify-content-around align-items-center p-4'>
  
       <Row className='container'>
-        <Col xs={3} className='text-light text-center'>
-          <div>
+        <Col xs={3} className='text-light text-center '>
+          <div className='mb-2 '>
             Contact Us
+          </div>
+          <div>
+          0216 923 2343 
+          </div>
+          <div>
+          lorem 
+          </div>
+          <div>
+          lorem 
+          </div>
+          <div>
+          lorem 
+          </div>
+        </Col>
+        <Col xs={3} className='text-light text-center'>
+          <div className='mb-2'>
+            Sosyal Medya
           </div>
           <div>
           lorem 
@@ -24,8 +41,8 @@ const Footer = () => {
           </div>
         </Col>
         <Col xs={3} className='text-light text-center'>
-          <div>
-            Contact Us
+          <div className='mb-2'>
+            Adress
           </div>
           <div>
           lorem 
@@ -41,25 +58,8 @@ const Footer = () => {
           </div>
         </Col>
         <Col xs={3} className='text-light text-center'>
-          <div>
-            Contact Us
-          </div>
-          <div>
-          lorem 
-          </div>
-          <div>
-          lorem 
-          </div>
-          <div>
-          lorem 
-          </div>
-          <div>
-          lorem 
-          </div>
-        </Col>
-        <Col xs={3} className='text-light text-center'>
-          <div>
-            Contact Us
+          <div className='mb-2'>
+            Partnerlerimiz
           </div>
           <div>
           lorem 

@@ -16,38 +16,38 @@ const servicesData = [
   {
     id: 1,
     icon: 'fas fa-clone',
-    title: 'Responsive Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    title: 'Ön Eleme',
+    description: 'Adaylar online olarak başvuru formunu doldurur ve taleplerini iletirler. Eğitim Çözümleri Departmanımız eğitim kriterlerine uygun katılımcılara sınav davetini ileteceklerdir.'
   },
   {
     id: 2,
     icon: 'fas fa-snowflake',
-    title: 'Creative Design',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    title: 'WGYS',
+    description: 'Ön elemeyi geçen katılımcılarımız, sayısal ve sözel becerilerinin ölçüldüğü sınava tabi tutulacaktır.'
   },
   {
     id: 3,
     icon: 'fas fa-plug',
-    title: 'SEO Optimized',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    title: 'Teknik',
+    description: 'Eğitmenler tarafından alan mülakatları gerçekleştirilir.'
   },
   {
     id: 4,
     icon: 'fas fa-desktop',
-    title: 'Retina Ready',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    title: 'IK Mülakatı',
+    description: 'İnsan Kaynakları departmanımız tarafından mülakat gerçekleştirilir.'
   },
   {
     id: 5,
     icon: 'fas fa-trophy',
-    title: 'Brower Compatibility',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    title: 'Sınıf Eğitimi',
+    description: 'Öğrencilerimiz 6 ay süre ile haftanın belirli günlerinde tam zamanlı olarak Bahçeşehir Üniversitesi Wissen Kampüsü’nde eğitim alırlar.'
   },
   {
     id: 6,
     icon: 'fas fa-life-ring',
-    title: 'Customer Support',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, vel! Accusantium hic fugiat laudantiu earum consequuntur, unde nam et mollitia eaque incidunt sed.'
+    title: 'Proje',
+    description: 'Alanında uzman deneyimli eğiticilerimiz ile 6 ay süren temel eğitimin ardından öğrencilerimiz, bireysel ve takım halinde geliştirerek öğrendiklerini uygulayıp bitirme projelerini oluşturacaklar.'
   }
 ]
 
@@ -96,7 +96,7 @@ const Hakkimizda = () => {
           {
             servicesData.map(services => {
               return ( 
-                <Col sm={4} className='holder' key={services.id}>
+                <Col sm={4} className='holder d-flex justify-content-center align-items-center flex-column mb-5' key={services.id}>
                   <div className="icon">
                     <i className={services.icon}></i>
                   </div>

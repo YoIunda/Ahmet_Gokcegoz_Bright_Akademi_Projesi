@@ -5,8 +5,11 @@ import Main from './Pages/Main'
 import Iletisim from './Pages/Iletisim';
 import Hakkimizda from './Pages/Hakkimizda';
 import Egitmenlerimiz from './Pages/Egitmenlerimiz';
+import FullStackPage from './Pages/FullStackPage';
+import BulutBilisimPage from './Pages/BulutBilisimPage';
 import Footer from './Components/Footer/Footer';
 import { Container } from 'react-bootstrap';
+import EgitmenDetay from './Pages/EgitmenDetay';
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
       <Route path='/Iletisim' element={<Iletisim/>}></Route>
       <Route path='/Hakkimizda' element={<Hakkimizda/>}></Route>
       <Route path='/Egitmenlerimiz' element={<Egitmenlerimiz/>}></Route>
+      <Route path='/FullStackPage' element={<FullStackPage/>}></Route>
+      <Route path='/BulutBilisimPage' element={<BulutBilisimPage/>}></Route>
+      <Route path='/EgitmenDetay/:id' element={<EgitmenDetay/>}></Route>
     </Routes>
     <Footer/>
     </Container>

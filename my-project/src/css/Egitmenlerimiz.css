@@ -31,7 +31,7 @@
     transition: all 0.3s linear;
     -webkit-transition: all 0.2s linear;
     vertical-align: middle;
-    background: rgba(246, 75, 75, 0.9);
+    background: rgba(50, 74, 133, 0.9);
     opacity: 0;
   }
   
@@ -83,7 +83,7 @@
   }
   
   .socials a:hover {
-    background: #f64b4b;
+    background: #e5db1e;
     color: #fff;
   }
   
